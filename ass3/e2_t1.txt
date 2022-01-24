@@ -1,0 +1,5 @@
+1. 1920x1080
+2. frame rate: 29.97fps
+3. h264
+4. no, yuv420p is used instead
+5. 48000 Hz

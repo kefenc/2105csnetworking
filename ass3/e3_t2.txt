@@ -1,0 +1,8 @@
+1. WebRTC is a p2p communication which uses UDP, and does not run on HTTP so it will not show up on the browser's network log as it might be stopped by firewall. On the other hand, DASH runs over HTTP which is more secure, and more package will be able to pass through the firewall and get printed on the browser's log.
+
+2. WebRTC uses UDP. DASH, which runs over HTTP, TCP. 
+
+Reason 1: WebRTC is mainly for live streaming purposes, and is able to tolerable some packet loss. DASH is used for VoD, which do not tolerate packet loss. Using TCP allows reliable data transfer.
+
+Reason 2: UDP reduces latency which is required in live streaming and conversational applications. TCP can pass through firewalls and do not require special software or configurations, and since it VoD can tolerate latency, the high overhead does not matter in this case. 
+

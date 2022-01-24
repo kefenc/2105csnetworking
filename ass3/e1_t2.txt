@@ -1,0 +1,5 @@
+1. http://monterosa.d2.comp.nus.edu.sg/~maylim/streaming/segment_bbb_72011.m4s
+2. m4s
+3. duration: 8 seconds
+4. advantage: client side buffer is bigger, thus thus buffer starvation is less likely when the video is playing, video is less likely to freeze during playback.
+disadvantage: there will be a larger start up delay to fill up the larger buffer size

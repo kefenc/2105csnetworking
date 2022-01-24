@@ -1,0 +1,1 @@
+ffmpeg -i test.mp4 -vf scale=640x480 -ss 00:00:17 -t 00:00:10 -an output.avi

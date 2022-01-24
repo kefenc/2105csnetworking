@@ -1,0 +1,5 @@
+1. 3. highest: 1280x720, lowest: 640x350
+2. Different quality gives the client possibility to adapt the media stream to its current network condition and bandwidth request and therefore smoother playback.
+3. Advantage: Quality different is less noticeable to viewers when video switches between different quality level
+Disadvantage: Takes up more space to store more quality levels at the server side, larger overhead is incurred since more quality levels needs to be retrieved
+ 

@@ -1,0 +1,3 @@
+capture filter: host 137.132.92.87
+
+Client initiates a connection with the server when establishing a connection. Server replies the client, and waits for the connection to be established by creating a socket. Once connection is established, a HTTP request is sent from the client to the server, and the server responds with a status code 200 if it is ok, and downloads the package. After finish downloading, both the server and client socket will close.
